@@ -1,3 +1,9 @@
+/*
+ * PROBLEM:
+ * Is Unique: Implement an algorithm to determine if a string has all unique characters.
+ * What if you cannot use additional data structures?
+*/
+
 fn all_chars_unique_part_a(s: &str) -> bool {
     true
 }
