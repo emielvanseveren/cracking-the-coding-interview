@@ -8,8 +8,8 @@
  * Output: "Mr%20John%20Smith"
  */
 
-fn urlify(s: &str) -> &str {
-    ""
+fn urlify(s: &str) -> String {
+    s.trim().replace(" ", "%20")
 }
 
 #[cfg(test)]
